@@ -31,6 +31,10 @@ set guioptions-=L
 set noeb vb t_vb=
 au GUIEnter * set vb t_vb=
 
+"Set Tabs
+set tabstop=2
+set shiftwidth=2
+
 " Turn on relative numbers
 :set number relativenumber
 
