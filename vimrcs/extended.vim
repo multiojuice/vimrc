@@ -31,7 +31,15 @@ set guioptions-=L
 set noeb vb t_vb=
 au GUIEnter * set vb t_vb=
 
-"Set Tabs
+" Disable arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+" Set  as escape key
+
+" Set Tabs
 set tabstop=2
 set shiftwidth=2
 
