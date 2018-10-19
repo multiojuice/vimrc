@@ -27,6 +27,13 @@ set guioptions-=R
 set guioptions-=l
 set guioptions-=L
 
+" Disable bell
+set noeb vb t_vb=
+au GUIEnter * set vb t_vb=
+
+" Turn on relative numbers
+:set number relativenumber
+
 " Colorscheme
 set background=dark
 colorscheme peaksea
